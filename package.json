@@ -1,0 +1,26 @@
+{
+  "name": "lp-mexicancoffee",
+  "version": "1.0.0",
+  "description": "The purpose of this practice is to use the basic knowledge got during the training and design a page about the mexican coffee.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joanrodriguezhe/LP-MexicanCoffee.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joanrodriguezhe/LP-MexicanCoffee/issues"
+  },
+  "homepage": "https://github.com/joanrodriguezhe/LP-MexicanCoffee#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.13.0",
+    "popper.js": "^1.16.0"
+  }
+}
