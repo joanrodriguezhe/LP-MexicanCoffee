@@ -1,4 +1,6 @@
-.espacio{height: 200px;}
+.espacio {
+  height: 200px;
+}
 
 @media (min-width: 992px) {
   #mainNav {
