@@ -7,6 +7,8 @@ yarn-error.log*
 lerna-debug.log*
 
 #PACKAGE-LOCK
+package-lock.json binary
+yarn.lock binary
 package-lock.json
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
