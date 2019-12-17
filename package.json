@@ -4,7 +4,9 @@
   "description": "The purpose of this practice is to use the basic knowledge got during the training and design a page about the mexican coffee.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "scss": "node-sass --watch views/main/css/main.scss -o views/main/css/"
   },
   "repository": {
     "type": "git",
@@ -20,7 +22,10 @@
     "bootstrap": "^4.4.1",
     "express": "^4.17.1",
     "jquery": "^3.4.1",
-    "node-sass": "^4.13.0",
     "popper.js": "^1.16.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "nodemon": "^2.0.2"
   }
 }
