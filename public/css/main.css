@@ -1,12 +1,57 @@
+.espacio {
+  height: 200px; }
+
+#mainNav {
+  background-color: #0e0504; }
+  #mainNav * {
+    color: #fefcfb; }
+  #mainNav a {
+    font-size: 1.2em; }
+  #mainNav .js-scroll-trigger.active,
+  #mainNav button {
+    background-color: #4b1f0e !important; }
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none; }
+    #mainNav .navbar-brand {
+      font-size: 2.5em;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s; }
+    #mainNav .navbar-nav .nav-item .nav-link {
+      padding: 1.1em 1em !important; }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0; }
+    #mainNav.navbar-shrink .navbar-brand {
+      font-size: 2em;
+      padding: 12px 0; } }
+
+@media (max-width: 992px) {
+  #mainNav a {
+    margin: 9px 0 9px;
+    font-size: 1em; }
+  #mainNav .navbar-brand {
+    font-size: 1.5em; }
+  #mainNav .js-scroll-trigger.active {
+    background-color: transparent !important;
+    color: #be7656 !important; } }
+
 .portfolio {
-  background-color: #EFC3A4;
-  color: #0E0504;
+  background-color: #efc3a4;
+  color: #0e0504;
   padding-bottom: 70px;
   padding-top: 70px; }
   .portfolio h2 {
     font-size: xxx-large; }
   .portfolio .img-item {
-    background: #BE7656; }
+    background: #be7656; }
     .portfolio .img-item img {
       border-radius: 50%;
       width: 200px;
@@ -15,7 +60,7 @@
   .portfolio .img-item:hover {
     cursor: pointer; }
   .portfolio .left-line, .portfolio .right-line {
-    background-color: #0E0504;
+    background-color: #0e0504;
     border-radius: 2px;
     height: 4px;
     max-width: 112px;
@@ -31,7 +76,7 @@
   position: fixed;
   bottom: 30px;
   right: 30px;
-  transition: background-color .3s,  opacity .5s, visibility .5s;
+  transition: background-color .3s,  opacity .5s, visibility .5s;
   opacity: 0;
   visibility: hidden;
   z-index: 1000; }
@@ -62,13 +107,13 @@ body {
   font-family: "Dancing Script", cursive; }
 
 .container-fluid {
-  background-color: #4B1F0E;
-  color: #EFC3A4; }
+  background-color: #4b1f0e;
+  color: #efc3a4; }
   .container-fluid .btn-social {
     display: inline-block;
-    background-color: #4B1F0E;
-    color: #EFC3A4;
-    border: 2px solid #EFC3A4;
+    background-color: #4b1f0e;
+    color: #efc3a4;
+    border: 2px solid #efc3a4;
     border-radius: 50%;
     width: 42px;
     height: 42px;
@@ -79,5 +124,5 @@ body {
       color: #ffffff; }
 
 .copyright {
-  background: #0E0504;
+  background: #0e0504;
   color: #ffffff; }

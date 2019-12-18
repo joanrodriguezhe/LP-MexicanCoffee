@@ -1,51 +1,44 @@
 @import "colors";
+@import "myNav"; //import nav scss
 @import "portfolio"; //import portfolio scss
 @import "myCssTopButton";
 //*******variables opacity***********
 $low-opacity: 0.2;
-$medium-opacity : 0.4;
-$high-opacity:0.8;
+$medium-opacity: 0.4;
+$high-opacity: 0.8;
 
-//*******general tipografy*********** 
+//*******general tipografy***********
 $tipografia-general: "Dancing Script", cursive;
 //$tipografia-alternativa: 'Times New Roman', Times, serif;
-
 
 body {
   font-family: $tipografia-general;
 }
 
-
-
-
 // Section Footer Wesley
 .container-fluid {
   background-color: $color-coffee-turkish;
   color: $color-coffee-light;
-  
-    .btn-social {
-      display: inline-block;
-      background-color: $color-coffee-turkish;
-      color: $color-coffee-light;
-      border: 2px solid $color-coffee-light;
-      border-radius: 50%;
-      width: 42px;
-      height: 42px;
-      align-items: center;
 
-      &:hover{
-        background-color: rgba($color-coffee-white, $low-opacity);
-        border: 2px solid $color-coffee-white;
-        color: $color-coffee-white;
-      }
+  .btn-social {
+    display: inline-block;
+    background-color: $color-coffee-turkish;
+    color: $color-coffee-light;
+    border: 2px solid $color-coffee-light;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    align-items: center;
+
+    &:hover {
+      background-color: rgba($color-coffee-white, $low-opacity);
+      border: 2px solid $color-coffee-white;
+      color: $color-coffee-white;
     }
+  }
 }
 
 .copyright {
   background: $color-coffee-black;
   color: $color-coffee-white;
 }
-
-
-
-

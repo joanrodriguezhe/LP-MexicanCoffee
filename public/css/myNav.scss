@@ -1,0 +1,63 @@
+@import "colors";
+
+.espacio {
+  height: 200px;
+}
+
+#mainNav {
+  background-color: $color-coffee-black;
+  * {
+    color: lighten($color-coffee-light, 20);
+  }
+  a {
+    font-size: 1.2em;
+  }
+  .js-scroll-trigger.active,
+  button {
+    background-color: $color-coffee-turkish !important;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    .navbar-brand {
+      font-size: 2.5em;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    .navbar-nav .nav-item .nav-link {
+      padding: 1.1em 1em !important;
+    }
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    .navbar-brand {
+      font-size: 2em;
+      padding: 12px 0;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #mainNav {
+    a {
+      margin: 9px 0 9px;
+      font-size: 1em;
+    }
+    .navbar-brand {
+      font-size: 1.5em;
+    }
+    .js-scroll-trigger.active {
+      background-color: transparent !important;
+      color: $color-coffee-milk !important;
+    }
+  }
+}
