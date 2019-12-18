@@ -1,0 +1,49 @@
+
+
+//**PORTFOLIO SECTION
+.portfolio{
+    background-color: $color-coffee-light;
+    color: $color-coffee-black;
+    padding-bottom: 70px; 
+    padding-top: 70px; 
+  
+    h2{
+      font-size: xxx-large;
+    }
+  
+    .img-item{
+      background: $color-coffee-milk;
+  
+      img{
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+      }
+    } 
+  
+    .img-item:hover {
+      cursor:pointer; 
+    }
+  
+    // .img-item::before{ 
+    //     font-family: "FontAwesome";
+    //     content: "\f095";
+    //     width: 100%;
+    //     height: 100%;
+    // color:rgba($primary-color, .5);
+    // }
+    
+      
+  .left-line, .right-line {
+    background-color: $color-coffee-black;
+    border-radius: 2px;
+    height: 4px;
+    max-width: 112px;
+    width: 25%;
+  } 
+  }
+
+  //*****END PORTFOLIO SECTION
+  
+  

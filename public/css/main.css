@@ -1,6 +1,25 @@
-h2 {
-  font-family: "Dancing Script", cursive;
-  background-color: aliceblue; }
+.portfolio {
+  background-color: #efc3a4;
+  color: #0E0504;
+  padding-bottom: 70px;
+  padding-top: 70px; }
+  .portfolio h2 {
+    font-size: xxx-large; }
+  .portfolio .img-item {
+    background: #BE7656; }
+    .portfolio .img-item img {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover; }
+  .portfolio .img-item:hover {
+    cursor: pointer; }
+  .portfolio .left-line, .portfolio .right-line {
+    background-color: #0E0504;
+    border-radius: 2px;
+    height: 4px;
+    max-width: 112px;
+    width: 25%; }
 
-.lorem {
-  background: green; }
+body {
+  font-family: "Dancing Script", cursive; }

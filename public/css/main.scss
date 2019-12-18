@@ -1,8 +1,8 @@
-h2 {
+@import "colors";
+
+@import "portfolio"; //import portfolio scss
+
+body {
   font-family: "Dancing Script", cursive;
-  background-color: aliceblue;
 }
 
-.lorem {
-  background: green;
-}
