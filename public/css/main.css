@@ -1,3 +1,52 @@
-h2 {
-  font-family: "Dancing Script", cursive;
-  background-color: aliceblue; }
+@charset "UTF-8";
+.espacio {
+  height: 200px; }
+
+#mainNav {
+  background-color: #0e0504; }
+  #mainNav * {
+    color: #fefcfb; }
+  #mainNav a {
+    font-size: 1.2em; }
+  #mainNav .js-scroll-trigger.active,
+  #mainNav button {
+    background-color: #4b1f0e !important; }
+  #mainNav .navbar-toggler-icon {
+    border-color: #fefcfb; }
+  #mainNav .navbar-toggler {
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg viewBox=’0 0 32 32′ xmlns=’http://www.w3.org/2000/svg’%3E%3Cpath stroke=’rgba(0, 128, 0, 0.8)’ stroke-width=’2′ stroke-linecap=’round’ stroke-miterlimit=’10’ d=’M4 8h24M4 16h24M4 24h24’/%3E%3C/svg%3E") !important; }
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none; }
+    #mainNav .navbar-brand {
+      font-size: 2.5em;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s; }
+    #mainNav .navbar-nav .nav-item .nav-link {
+      padding: 1.1em 1em !important; }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0; }
+    #mainNav.navbar-shrink .navbar-brand {
+      font-size: 2em;
+      padding: 12px 0; } }
+
+@media (max-width: 992px) {
+  #mainNav a {
+    margin: 9px 0 9px;
+    font-size: 1em; }
+  #mainNav .navbar-brand {
+    font-size: 1.5em; }
+  #mainNav .js-scroll-trigger.active {
+    background-color: transparent !important;
+    color: #be7656 !important; } }
+
+body {
+  font-family: "Dancing Script", cursive; }
