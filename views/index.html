@@ -13,6 +13,7 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="public/css/myCssNav.css">
+    <!-- <link rel="stylesheet" type="text/css" href="public/css/myCssTopButton.css"> -->
     <link rel="stylesheet" type="text/css" href="public/css/main.css">
     <title>Document</title>
 
@@ -91,9 +92,56 @@
     </section>
 
 
+    <footer class="footer text-center" id="footer">
+        <div class="container-fluid  text-center py-3 px-5" id="container-fluid">
+          <div class="row">
+            
+               <div class="col-lg-4 pb-4">
+                    <h1 class="text-uppercase mb-3">Location</h1>
+                        <p>
+                            Av.Ricardo Flores Magon #45612 Pte Tepic, <br>
+                            Nayarit México. C.P. 63820.
+                        </p>
+                </div>
+                <div class="col-lg-4 pb-4">
+                    <h1 class="text-uppercase mb-3">AROUND</h1>
+                    <a class="btn-social  btn btn-outline-ligth mx-1" href="http://twitter.com/" 
+                    target="_blank">
+                        <i class="fa fa-twitter">
+                        </i>
+                    </a>
+                    
+                    <a class="btn-social btn btn-outline-ligth mx-1" href="https://www.facebook.com/wesley.martinchia" target="_blank">
+                        <i class="fa fa-facebook">
+                        </i>
+                    </a>
+        
+                    <a class="btn-social btn btn-outline-ligth mx-1" href="http://instagram.com/" target="_blank">
+                        <i class="fa fa-instagram">
+                        </i>
+                    </a>
+                </div>
+                    <div class="col-lg-4 pb-2">
+                    <h1 class="text-uppercase mb-3">About coffee</h1>
+                        <p>
+                            Coffee is the drink that is obtained from roasted and ground beans from the fruits of the coffee plant. It is a highly stimulating drink because of its caffeine content.
+                        </p>
+                    </div>
 
+          </div>
+        </div>  
+
+         <!-- Copyright -->
+         <section class="copyright py-2 text-center text-white ">
+            <p>
+            Copyright © <strong>Mexican Coffee 2019</strong>
+            </p>
+        </section>
+        <!-- / Copyright -->
+      </footer>
     
-     
+     <!-- Back to top button -->
+     <a id="button"></a>
 
 
 
@@ -101,10 +149,12 @@
     <!-- <script  src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script  src="../node_modules/popper.js/dist/popper.min.js"></script>
     <script  src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    
+    <!-- Linea comentada para el evento de Top Button_no interfiere con en navbar -->
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
@@ -113,11 +163,13 @@
         crossorigin="anonymous"></script>
 
 
-
+    
     <!-- Navbar -->
     <script src="public/js/navbar-shrinker.js"></script>
+    <!-- Footer -->
+    <script src="public/js/button-top.js"></script>
+
     <script src="public/js/main.js"></script>
 
 </body>
-
 </html>
