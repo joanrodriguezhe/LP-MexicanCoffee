@@ -45,16 +45,6 @@
       font-size: 2em;
       padding: 12px 0; } }
 
-@media (max-width: 992px) {
-  #mainNav a {
-    margin: 9px 0 9px;
-    font-size: 1em; }
-  #mainNav .navbar-brand {
-    font-size: 1.5em; }
-  #mainNav .js-scroll-trigger.active {
-    background-color: transparent !important;
-    color: #be7656 !important; } }
-
 #portfolio {
   background-color: #efc3a4;
   color: #0e0504;
@@ -162,8 +152,7 @@
   position: fixed;
   bottom: 30px;
   right: 30px;
-  transition: background-color .3s, 
- opacity .5s, visibility .5s;
+  transition: background-color .3s,  opacity .5s, visibility .5s;
   opacity: 0;
   visibility: hidden;
   z-index: 1000; }
