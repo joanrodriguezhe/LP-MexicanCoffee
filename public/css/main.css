@@ -12,6 +12,16 @@
     background-color: #4b1f0e !important; }
 
 @media (min-width: 768px) {
+  #mainNav a {
+    margin: 9px 0 9px;
+    font-size: 1em; }
+  #mainNav .navbar-brand {
+    font-size: 1.5em; }
+  #mainNav .js-scroll-trigger.active {
+    background-color: transparent !important;
+    color: #be7656 !important; } }
+
+@media (min-width: 1200px) {
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -32,16 +42,6 @@
     #mainNav.navbar-shrink .navbar-brand {
       font-size: 2em;
       padding: 12px 0; } }
-
-@media (min-width: 1200px) {
-  #mainNav a {
-    margin: 9px 0 9px;
-    font-size: 1em; }
-  #mainNav .navbar-brand {
-    font-size: 1.5em; }
-  #mainNav .js-scroll-trigger.active {
-    background-color: transparent !important;
-    color: #be7656 !important; } }
 
 .portfolio {
   background-color: #efc3a4;

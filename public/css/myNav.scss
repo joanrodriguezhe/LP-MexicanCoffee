@@ -18,6 +18,22 @@
 
 @media (min-width: 768px) { 
   #mainNav {
+    a {
+      margin: 9px 0 9px;
+      font-size: 1em;
+    }
+    .navbar-brand {
+      font-size: 1.5em;
+    }
+    .js-scroll-trigger.active {
+      background-color: transparent !important;
+      color: $color-coffee-milk !important;
+    }
+  }
+}
+
+@media (min-width: 1200px) { 
+  #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
@@ -40,22 +56,6 @@
     .navbar-brand {
       font-size: 2em;
       padding: 12px 0;
-    }
-  }
-}
-
-@media (min-width: 1200px) { 
-  #mainNav {
-    a {
-      margin: 9px 0 9px;
-      font-size: 1em;
-    }
-    .navbar-brand {
-      font-size: 1.5em;
-    }
-    .js-scroll-trigger.active {
-      background-color: transparent !important;
-      color: $color-coffee-milk !important;
     }
   }
 }
