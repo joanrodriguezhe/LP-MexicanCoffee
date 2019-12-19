@@ -8,11 +8,11 @@
     padding-top: 70px; 
   
     h2{
-      font-size: xxx-large;
+      font-size: xx-large;
     }
 
     h5{
-      font-size: x-large;
+      font-size: xx-large;
     }
 
     .no-border{
@@ -74,8 +74,6 @@
         background-color:  $color-coffee-turkish;
         border-color: $color-coffee-turkish;
       }
-
-
     }
 
   .left-line, .right-line {
@@ -86,6 +84,41 @@
     width: 25%;
   } 
   }
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+  #portfolio{
+    h2{
+    font-size: xxx-large;
+    }
+
+    .modal{
+      .img-item{
+        width: 75% !important;
+        height: 400px !important;
+
+        img{
+          width: 350px !important;
+          height: 350px !important;
+        }
+      }
+
+      p {
+        width: 75% !important;
+      }
+    }
+ }
+
+ }
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  #portfolio{
+    h5{
+    font-size: xxx-large;
+    } 
+  }
+}
 
   //*****END PORTFOLIO SECTION
   
