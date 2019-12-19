@@ -11,7 +11,7 @@
   #mainNav button {
     background-color: #4b1f0e !important; }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -33,7 +33,7 @@
       font-size: 2em;
       padding: 12px 0; } }
 
-@media (max-width: 992px) {
+@media (min-width: 1200px) {
   #mainNav a {
     margin: 9px 0 9px;
     font-size: 1em; }
@@ -65,6 +65,46 @@
     height: 4px;
     max-width: 112px;
     width: 25%; }
+
+.about {
+  background-color: #794028;
+  color: #fefcfb;
+  padding-bottom: 70px;
+  padding-top: 70px;
+  font-size: 1.5rem; }
+  .about h2 {
+    font-size: xxx-large; }
+  .about .left-line,
+  .about .right-line {
+    background-color: #fefcfb;
+    border-radius: 2px;
+    height: 4px;
+    max-width: 112px;
+    width: 25%; }
+
+@media (min-width: 576px) {
+  .about .izq,
+  .about .der {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important; } }
+
+@media (min-width: 768px) {
+  .about .izq,
+  .about .der {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important; } }
+
+@media (min-width: 992px) {
+  .about .izq {
+    padding-left: 10rem !important; }
+  .about .der {
+    padding-right: 10rem !important; } }
+
+@media (min-width: 1200px) {
+  .about .izq {
+    padding-left: 12rem !important; }
+  .about .der {
+    padding-right: 12rem !important; } }
 
 #button {
   display: inline-block;
