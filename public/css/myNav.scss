@@ -14,9 +14,12 @@
   button {
     background-color: $color-coffee-turkish !important;
   }
+  .navbar-toggler.navbar-toggler-right {
+    font-size: x-large;
+  }
 }
 
-@media (min-width: 768px) { 
+@media (max-width: 922px) {
   #mainNav {
     a {
       margin: 9px 0 9px;
@@ -32,7 +35,7 @@
   }
 }
 
-@media (min-width: 1200px) { 
+@media (min-width: 922px) {
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;

@@ -10,8 +10,10 @@
   #mainNav .js-scroll-trigger.active,
   #mainNav button {
     background-color: #4b1f0e !important; }
+  #mainNav .navbar-toggler.navbar-toggler-right {
+    font-size: x-large; }
 
-@media (min-width: 768px) {
+@media (max-width: 922px) {
   #mainNav a {
     margin: 9px 0 9px;
     font-size: 1em; }
@@ -21,7 +23,7 @@
     background-color: transparent !important;
     color: #be7656 !important; } }
 
-@media (min-width: 1200px) {
+@media (min-width: 922px) {
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
