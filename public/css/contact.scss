@@ -1,0 +1,40 @@
+
+  .contact {
+    background-color: lighten($color-coffee-light, 20);
+    color:$color-coffee-mocha;
+    padding-bottom: 50px; 
+    padding-top: 50px; 
+
+    
+      h2{
+        font-size: xxx-large;
+        }
+
+    .left-line, .right-line {
+      background-color:$color-coffee-mocha;;
+      border-radius: 2px;
+      height: 4px;
+      max-width: 112px;
+      width: 25%;
+    } 
+  }
+
+  #contact_submit {
+    background-color: $color-coffee-light;
+    border-color: $color-coffee-turkish;
+    color:$color-coffee-turkish ;
+    
+  }
+
+  .label-imput{
+    color:$color-coffee-mocha;
+    font-size: x-large;
+  }
+
+  .error {
+    color: red;
+    font-size: x-large;
+  }
+
+
+
