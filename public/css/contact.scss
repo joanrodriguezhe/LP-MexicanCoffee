@@ -17,6 +17,9 @@
       max-width: 112px;
       width: 25%;
     } 
+     
+    
+
   }
 
   #contact_submit {
@@ -34,6 +37,11 @@
   .error {
     color: red;
     font-size: x-large;
+  }
+
+
+  .form-control {
+    font-size: x-large !important;
   }
 
 
