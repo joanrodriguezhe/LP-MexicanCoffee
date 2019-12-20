@@ -65,15 +65,22 @@
       }
     }
 
-    .bottom-close-button{
-      background-color: $color-coffee-mocha;
-      border-color: $color-coffee-mocha;
-      color: $color-coffee-light;
-      transition: 0.1s;  
-      &:hover{
-        background-color:  $color-coffee-turkish;
-        border-color: $color-coffee-turkish;
-      }
+    .modal{
+      .bottom-close-button{
+        background-color: $color-coffee-mocha;
+        border-color: $color-coffee-mocha;
+        color: $color-coffee-light;
+        font-size: x-large;
+        transition: 0.1s;  
+     
+        &:hover{
+          background-color:  $color-coffee-turkish;
+          border-color: $color-coffee-turkish;
+        }
+      }    
+       p{
+        font-size: x-large;
+        }
     }
 
   .left-line, .right-line {
@@ -83,7 +90,7 @@
     max-width: 112px;
     width: 25%;
   } 
-  }
+}
 
 
 // Large devices (desktops, 992px and up)

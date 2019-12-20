@@ -111,14 +111,17 @@
     transition: 0.1s; }
     #portfolio .top-close-button:hover {
       color: #be7656; }
-  #portfolio .bottom-close-button {
+  #portfolio .modal .bottom-close-button {
     background-color: #794028;
     border-color: #794028;
     color: #efc3a4;
+    font-size: x-large;
     transition: 0.1s; }
-    #portfolio .bottom-close-button:hover {
+    #portfolio .modal .bottom-close-button:hover {
       background-color: #4b1f0e;
       border-color: #4b1f0e; }
+  #portfolio .modal p {
+    font-size: x-large; }
   #portfolio .left-line, #portfolio .right-line {
     background-color: #0e0504;
     border-radius: 2px;
@@ -194,7 +197,7 @@
   position: fixed;
   bottom: 5px;
   right: 30px;
-  transition: background-color .3s,  opacity .5s, visibility .5s;
+  transition: background-color .3s,  opacity .5s, visibility .5s;
   opacity: 0;
   visibility: hidden;
   z-index: 1000; }
