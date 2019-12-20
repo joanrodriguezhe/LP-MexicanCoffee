@@ -194,7 +194,7 @@
   position: fixed;
   bottom: 5px;
   right: 30px;
-  transition: background-color .3s,  opacity .5s, visibility .5s;
+  transition: background-color .3s,  opacity .5s, visibility .5s;
   opacity: 0;
   visibility: hidden;
   z-index: 1000; }
@@ -268,3 +268,7 @@
 
 body {
   font-family: "Dancing Script", cursive; }
+
+.espacio {
+  height: 200px;
+  background-color: #794028; }
