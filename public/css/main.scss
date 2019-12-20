@@ -1,4 +1,26 @@
-h2 {
-  font-family: "Dancing Script", cursive;
-  background-color: aliceblue;
+@import "colors"; //import colors
+@import "myNav"; //import nav scss
+@import "start"; //import start scss
+@import "portfolio"; //import portfolio scss
+@import "about"; //import about scss
+@import "myCssTopButton";
+@import "contact"; //import contact scss
+@import "footer";  //import footer scss
+
+//*******variables opacity***********
+$low-opacity: 0.2;
+$medium-opacity: 0.4;
+$high-opacity: 0.8;
+
+//*******general tipografy***********
+$tipografia-general: "Dancing Script", cursive;
+//$tipografia-alternativa: 'Times New Roman', Times, serif;
+
+body {
+  font-family: $tipografia-general;
+}
+
+.espacio{
+  height: 200px;
+  background-color: $color-coffee-mocha;
 }

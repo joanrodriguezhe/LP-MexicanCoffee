@@ -1,0 +1,24 @@
+// Section Footer Wesley
+.container-fluid {
+    background-color: $color-coffee-turkish;
+    color: $color-coffee-light;
+     
+    .social-container{
+      display: inline-block;
+      background-color: $color-coffee-turkish;
+      
+      i{
+        color: $color-coffee-light;
+        &:hover{
+          color: $color-coffee-mocha;
+        }
+      }
+      
+    }  
+  }
+  
+  .copyright {
+    background: $color-coffee-black;
+    color: $color-coffee-white;
+  }
+  

@@ -1,0 +1,38 @@
+//Star section
+.start {
+    background-color: $color-coffee-mocha;
+    color: $color-coffee-light;
+    padding-bottom: 50px; 
+    padding-top: 50px; 
+
+    
+    .image-start{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 250px;
+      height: 200px;
+      border-radius: 50%;
+    }
+
+    h2{
+      font-size: xxx-large;
+    }
+    .container-p {
+      
+      .p-1{
+        font-size: xx-large;
+      }
+      .p-2{
+        font-size: x-large;
+      }
+    }
+
+    .left-line, .right-line {
+      background-color: $color-coffee-light;
+      border-radius: 2px;
+      height: 4px;
+      max-width: 112px;
+      width: 25%;
+    } 
+   
+  }
