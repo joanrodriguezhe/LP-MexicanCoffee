@@ -43,6 +43,30 @@
     background-color: transparent !important;
     color: #be7656 !important; } }
 
+.start {
+  background-color: #794028;
+  color: #efc3a4;
+  padding-bottom: 50px;
+  padding-top: 50px; }
+  .start .image-start {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 200px;
+    border-radius: 50%; }
+  .start h2 {
+    font-size: xxx-large; }
+  .start .container-p .p-1 {
+    font-size: xx-large; }
+  .start .container-p .p-2 {
+    font-size: x-large; }
+  .start .left-line, .start .right-line {
+    background-color: #efc3a4;
+    border-radius: 2px;
+    height: 4px;
+    max-width: 112px;
+    width: 25%; }
+
 .portfolio {
   background-color: #efc3a4;
   color: #0e0504;
@@ -68,15 +92,15 @@
 
 #button {
   display: inline-block;
-  background-color: #EFC3A4;
+  background-color: #0e0504;
   width: 50px;
   height: 50px;
   text-align: center;
   border-radius: 4px;
   position: fixed;
-  bottom: 30px;
+  bottom: 5px;
   right: 30px;
-  transition: background-color .3s,  opacity .5s, visibility .5s;
+  transition: background-color .3s,  opacity .5s, visibility .5s;
   opacity: 0;
   visibility: hidden;
   z-index: 1000; }
@@ -103,26 +127,47 @@
   #button {
     display: none; } }
 
-body {
-  font-family: "Dancing Script", cursive; }
+.contact {
+  background-color: #fefcfb;
+  color: #794028;
+  padding-bottom: 50px;
+  padding-top: 50px; }
+  .contact h2 {
+    font-size: xxx-large; }
+  .contact .left-line, .contact .right-line {
+    background-color: #794028;
+    border-radius: 2px;
+    height: 4px;
+    max-width: 112px;
+    width: 25%; }
+
+#contact_submit {
+  background-color: #efc3a4;
+  border-color: #4b1f0e;
+  color: #4b1f0e; }
+
+.label-imput {
+  color: #794028;
+  font-size: x-large; }
+
+.error {
+  color: red;
+  font-size: x-large; }
 
 .container-fluid {
   background-color: #4b1f0e;
   color: #efc3a4; }
-  .container-fluid .btn-social {
+  .container-fluid .social-container {
     display: inline-block;
-    background-color: #4b1f0e;
-    color: #efc3a4;
-    border: 2px solid #efc3a4;
-    border-radius: 50%;
-    width: 42px;
-    height: 42px;
-    align-items: center; }
-    .container-fluid .btn-social:hover {
-      background-color: rgba(255, 255, 255, 0.2);
-      border: 2px solid #ffffff;
-      color: #ffffff; }
+    background-color: #4b1f0e; }
+    .container-fluid .social-container i {
+      color: #efc3a4; }
+      .container-fluid .social-container i:hover {
+        color: #794028; }
 
 .copyright {
   background: #0e0504;
   color: #ffffff; }
+
+body {
+  font-family: "Dancing Script", cursive; }

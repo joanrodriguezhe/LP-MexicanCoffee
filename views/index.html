@@ -15,12 +15,13 @@
     <link rel="stylesheet" type="text/css" href="public/css/main.css">
     <title>Document</title>
 
+    
 </head>
 
 <body id="top">
     <!-- Nav -->
-    <header>
-        <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg" id="mainNav">
             <div class="container">
                 <!-- HB -->
                 <a class="navbar-brand js-scroll-trigger home" href="#top">Mexican Coffee</a>
@@ -41,13 +42,44 @@
             </div>
         </nav>
     </header>
-    <div class="espacio"></div>
+
+    
+
+    <section class="start" id="start">
+        <div class="container text-center">
+            <img class="image-start" src="public/cofee-start.jpg" >
+      
+           
+            <h2 class="uppercase pb-3">WELCOME TO COFFE BREAK</h2>
+      
+            <div class="row justify-content-center align-items-center pb-3">
+                <div class="left-line justify-content-end"></div>
+                <div class="col-auto"><i class="fa fa-coffee fa-3x"></i></div>
+                <div class="right-line justify-content-start">
+                </div>
+            </div>
+      
+           
+            <div class="container-p px-50 pb-3">
+                <p class="p-1">
+                 The best mexican coffee in the world
+               </p>
+            </div>
+
+            <div class="container-p px-50 pb-3">
+                <p class="p-2">
+                    In Mexico, coffee is, next to avocado, one of the main agricultural export products, and accounts for about half of agricultural exports and about 5 percent of total Mexican exports.
+                </p>
+            </div>
+      
+        </div>
+    </section>
 
 
     <!-- PORTFOLIO -->
     <section class="portfolio" id="portfolio">
         <div class="container">
-            <h2 class="text-center  font-weight-bold ">PORTFOLIO</h2>
+            <h2 class="text-center font-weight-bold ">PORTFOLIO</h2>
             <div class="row justify-content-center align-items-center pb-4">
                 <div class="left-line justify-content-end"></div>
                 <div class="col-auto"><i class="fa fa-coffee fa-3x"></i></div>
@@ -89,43 +121,100 @@
         </div>
     </section>
 
+    <!-- ************************************************************************************** -->
+
+    <section class="contact" id="contact">
+      <div class="container text-center">
+        <h2 class="uppercase font-weight-bold pb-3">CONTACT US</h2>
+        <div class="row justify-content-center align-items-center pb-4">
+            <div class="left-line justify-content-end"></div>
+            <div class="col-auto"><i class="fa fa-coffee fa-3x"></i></div>
+            <div class="right-line justify-content-start">
+            </div>
+        </div>
+
+
+        
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <form class="form">
+                        <div class="form-group">
+                             <label class="label-imput" for="contact_name">Name</label>
+                             <input type="text" name="name" class="form-control" id="contact_name" placeholder="Full name" pattern="^([A-Za-z]+[,.]?[ ]?|[A-Za-z]+['-]?)+$" required  oninput="nameValidator()">
+                             <span id="errorname" class="error" hidden>Invalid field</span>
+                        </div>
+
+
+                        <div class="form-group">
+                         <label class="label-imput" for="contact_email">Email</label>
+                           <input type="email" class="form-control" id="contact_email" name="email" placeholder="Email"  required oninput="emailValidate()">
+                           <span id="erroremail" class="error" hidden> Invalid emial</span>
+                        </div>
+                        <div class="form-group">
+                           <label class="label-imput" for="contact_phone">Phone</label>
+                           <input  class="form-control" id="contact_phone" name="phone" placeholder="Phone" 
+                           pattern="^[0-9]+" required oninput="numberValidator()">
+                           <span id="errorphone" class="error" hidden>Invalid Number</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="label-imput" for="contact_message">Message</label>
+                            <textarea  class="form-control" id="contact_message" name="message" placeholder="Message" oninput="messageValidator()"></textarea>
+                            <span id="errormessage" class="error" hidden>Message Invalid</span>
+                            
+                        </div>
+                        <div class="form-group justify-content-center">
+                           <button id="contact_submit" type="button" onclick="showMessage()" class="btn-lg float-center">Submit</button>
+                         </div>
+                        </form>
+            </div>
+    </section>
+
+    <!-- ******************************************************************************* -->
 
     <footer class="footer text-center" id="footer">
         <div class="container-fluid  text-center py-3 px-5" id="container-fluid">
-          <div class="row">
+          <div class="row ">
             
-               <div class="col-lg-4 pb-4">
+               <div class="col-lg-4 pb-4 ">
                     <h1 class="text-uppercase mb-3">Location</h1>
                         <p>
                             Av.Ricardo Flores Magon #45612 Pte Tepic, <br>
                             Nayarit México. C.P. 63820.
                         </p>
                 </div>
-                <div class="col-lg-4 pb-4">
-                    <h1 class="text-uppercase mb-3">AROUND</h1>
-                    <a class="btn-social  btn btn-outline-ligth mx-1" href="http://twitter.com/" 
-                    target="_blank">
-                        <i class="fa fa-twitter">
+
+                 <div class="col-lg-4 pb-4">
+                    <h1 class="text-uppercase mb-4">AROUND</h1>
+                     <div class="social-container ">
+                      <a class="btn-social mx-3" href="http://twitter.com/" 
+                         target="_blank">
+                        <i class="fa fa-twitter fa-3x">
                         </i>
-                    </a>
+                      </a>
+                   </div>
                     
-                    <a class="btn-social btn btn-outline-ligth mx-1" href="https://www.facebook.com/wesley.martinchia" target="_blank">
-                        <i class="fa fa-facebook">
-                        </i>
-                    </a>
-        
-                    <a class="btn-social btn btn-outline-ligth mx-1" href="http://instagram.com/" target="_blank">
-                        <i class="fa fa-instagram">
-                        </i>
-                    </a>
+
+                    <div class="social-container" >
+                        <a  class="btn-social mx-3" href="https://www.facebook.com/wesley.martinchia" target="_blank">
+                            <i class="fa fa-facebook fa-3x" ></i>
+                        </a>
+                    </div>
+                    
+                    <div class="social-container">
+                        <a class="btn-social mx-3" href="http://instagram.com/" target="_blank">
+                            <i class="fa fa-instagram fa-3x"></i>
+                        </a>
+                    </div> 
                 </div>
+                    
+                      
                     <div class="col-lg-4 pb-2">
-                    <h1 class="text-uppercase mb-3">About coffee</h1>
+                        <h1 class="text-uppercase mb-3">About coffee</h1>
                         <p>
                             Coffee is the drink that is obtained from roasted and ground beans from the fruits of the coffee plant. It is a highly stimulating drink because of its caffeine content.
                         </p>
                     </div>
-
           </div>
         </div>  
 
@@ -168,6 +257,76 @@
     <script src="public/js/button-top.js"></script>
 
     <script src="public/js/main.js"></script>
+    <script src="public/js/contact.js"></script>
+     
+    <!-- <script>
+        function showMessage() 
+    {
 
+
+        let showMessage = true;
+        let message ='';
+        let contactname = document.getElementById('contact_name');
+        let contactemail = document.getElementById('contact_email');
+        let contactphone = document.getElementById('contact_phone');
+        let contactmessage = document.getElementById('contact_message');
+
+
+       
+        // if (contactname.value != undefined && contactname.value != '' && contactname.value != null)
+        // {            
+        //     alert(contactname);
+        //     contactname.value = '';
+        // } else {             
+        //     contactname.classList.add('is-invalid');
+        // }
+
+        if(contactname.value == undefined || contactname.value == '' || contactname.value == null) {
+            showMessage = false;           
+            contactname.classList.add('is-invalid');
+        } 
+
+        if (contactemail.value == undefined || contactemail.value == '' || contactemail.value == null){
+            showMessage = false;
+            contactemail.classList.add('is-invalid');
+         }
+         
+         //else{
+
+           
+        //     var re = new RegExp('[^@]+@[^@]+\.[a-zA-Z]{2,6}');
+        //     if(!contactemail.matches(re)){
+        //         contactemail.classList.add('is-invalid');
+        //         showMessage = false;
+        //     }
+        // }
+
+        if (contactphone.value == undefined && contactphone.value == '' && contactphone.value == null){
+            showMessage = false;
+            contactphone.classList.add('is-invalid');
+        }
+
+        if (contactmessage.value == undefined || contactmessage.value == '' || contactmessage.value == null){
+            showMessage = false;
+            contactmessage.classList.add('is-invalid');
+        }
+        
+        if(showMessage){
+            message = 'Name: ' + contactname.value + '\nEmail: '+contactemail.value+'\nPhone: '+contactphone.value+'\nMessage:' + contactmessage.value;
+
+            alert(message);
+
+            let list = document.querySelectorAll(".is-invalid");
+            
+            list.forEach(element => {
+            element.classList.remove('is-invalid');
+            });
+        }
+
+       
+
+
+    }
+    </script> -->
 </body>
 </html>
